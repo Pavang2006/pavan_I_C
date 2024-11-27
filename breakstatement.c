@@ -6,9 +6,8 @@ int main(void) {
     {
       break;
     }
-      
     printf("i=%d\n",i);
-    
      }
+  printf("Pavan G ECE");
   return 0;
 }
