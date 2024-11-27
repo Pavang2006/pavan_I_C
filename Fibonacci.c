@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(void)
+
 {
   int n,t1=0,t2=1,nextTerm;
   printf("Enter the number of terms  ");
@@ -13,5 +14,7 @@ int main(void)
       t2=nextTerm;
     }
 printf("Pavan G");
+  
   return 0;
+  
 }
