@@ -1,19 +1,29 @@
 #include<stdio.h>
-
-struct student{
-char name[5];
-int roll_no;
-float marks;
+struct student {
+ char name[20];
+ int roll;
+ int age;
+ char gender;
+ char clg_name;
 };
-int main(void){
+int main(void)
+{
   struct student s1;
-  printf("Name of student1 :");
-  scanf("%s",&s1.name);
-  printf("\nRoll no of student1 :");
-  scanf("%d",&s1.roll_no);
-  printf("\nMarks of student1 :");
-  scanf("%f",&s1.marks);
-  printf("\nStudent1 details are :");
-  printf("Name : %s\nRoll no :%d\nMarks :%f\n",s1.name,s1.roll_no,s1.marks);
+  printf("Name: ") ;
+  scanf("%s",s1.name);
+  printf("Roll: ");
+  scanf("%d",&s1.roll);
+  printf("Age: ");
+  scanf("%d",&s1.age);
+  printf("Gender: ");
+  scanf("%c",&s1.gender);
+  printf("College: ");
+  scanf("%s",s1.clg_name);
+  printf("Name: %s\n",s1.name);
+  printf("Roll: %d\n",s1.roll);
+  printf("Age: %d\n",s1.age);
+  printf("Gender: %c\n",s1.gender);
+  printf("College: %s\n",s1.clg_name);
   return 0;
+  
 }
