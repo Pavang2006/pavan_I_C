@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main (void) 
+{
+ float km, m, cm;
+printf("Enter kilometre ");
+scanf("%.2f in km", &km);
+m=1000*km;
+cm=100*m;
+printf(" Kilometre into %f meters ", m);
+printf(" Kilometre into %f centimeter ", cm); 
+return 0;
